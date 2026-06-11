@@ -18,7 +18,7 @@ export default function ClareadorLP() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FDFBF7] font-sans text-slate-800 selection:bg-[#D4A373]/20">
+    <div className="min-h-screen bg-[#FDFBF7] font-sans text-slate-800 selection:bg-[#D4A373]/20 overflow-x-hidden">
       
       {/* Top Bar - Elegante */}
       <div className="bg-[#2C362B] text-[#FDFBF7] text-center py-2.5 px-4 text-[11px] md:text-xs font-semibold tracking-[0.2em] uppercase">
@@ -49,9 +49,9 @@ export default function ClareadorLP() {
             </p>
             
             <div className="flex flex-col md:flex-row items-center gap-4 mb-4">
-              <a href="#oferta" className="w-full md:w-auto group relative inline-flex flex-col items-center justify-center gap-1 bg-[#2C362B] text-white px-10 py-4 rounded-full font-medium overflow-hidden transition-all hover:scale-[1.02] hover:shadow-[0_15px_40px_-10px_rgba(44,54,43,0.5)]">
-                <span className="relative z-10 flex items-center gap-2 tracking-widest uppercase text-[13px] font-bold">QUERO CLAREAR MINHAS MANCHAS <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" /></span>
-                <span className="relative z-10 text-[9px] text-white/70 tracking-normal normal-case font-light">E pagar com segurança apenas na entrega</span>
+              <a href="#oferta" className="w-full md:w-auto group relative inline-flex flex-col items-center justify-center gap-1 bg-[#2C362B] text-white px-6 md:px-10 py-4 rounded-full font-medium overflow-hidden transition-all hover:scale-[1.02] hover:shadow-[0_15px_40px_-10px_rgba(44,54,43,0.5)]">
+                <span className="relative z-10 flex items-center gap-2 tracking-widest uppercase text-[12px] md:text-[13px] font-bold text-center">QUERO CLAREAR MINHAS MANCHAS <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" /></span>
+                <span className="relative z-10 text-[9px] text-white/70 tracking-normal normal-case font-light text-center">E pagar com segurança apenas na entrega</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-[#2C362B] to-[#3f4d3e] opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </a>
             </div>
@@ -83,7 +83,7 @@ export default function ClareadorLP() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Texto Emocional e Ingredientes */}
             <div className="space-y-8">
-              <div className="prose prose-lg text-[#6B7068] font-light leading-relaxed">
+              <div className="prose md:prose-lg text-[#6B7068] font-light leading-relaxed">
                 <p className="mb-4">
                   Nós sabemos o quão frustrante é gastar dinheiro com ácidos químicos agressivos de farmácia. Eles deixam a pele vermelha, descamam, ardem absurdamente e, no primeiro contato com o sol... <strong>a mancha volta ainda maior (O temido Efeito Rebote).</strong>
                 </p>
@@ -174,7 +174,7 @@ export default function ClareadorLP() {
             </div>
           </div>
           {/* Foco na dor e Headline Chamativa entre os depoimentos */}
-          <div className="max-w-3xl mx-auto text-center mb-16 bg-white p-8 md:p-12 rounded-[2rem] border border-red-100 shadow-xl relative mt-4">
+          <div className="max-w-3xl mx-auto text-center mb-16 bg-white p-6 md:p-12 rounded-[2rem] border border-red-100 shadow-xl relative mt-4">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-red-600 text-white text-[10px] font-black tracking-widest uppercase px-6 py-2 rounded-full shadow-lg">
               A Escolha é Sua
             </div>
