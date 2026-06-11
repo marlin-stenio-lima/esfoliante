@@ -16,7 +16,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<ClareadorLP />} />
+        <Route path="/boost" element={<Home />} />
         <Route path="/afiliados" element={<Affiliates />} />
         <Route path="/logzz" element={<LogzzLP />} />
         <Route path="/clareador" element={<ClareadorLP />} />
