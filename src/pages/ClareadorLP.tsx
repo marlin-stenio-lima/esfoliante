@@ -368,11 +368,11 @@ export default function ClareadorLP() {
 
       {/* Botão Flutuante Fixo na Base (Sticky Bottom CTA) */}
       <div className="fixed bottom-0 left-0 right-0 z-40 bg-white/90 backdrop-blur-md border-t border-[#EAE6DF] p-3 md:p-4 shadow-[0_-10px_30px_rgba(0,0,0,0.1)] flex justify-center items-center">
-        <a href="#oferta" className="w-full max-w-lg group relative inline-flex items-center justify-center gap-2 bg-[#2C362B] text-white px-6 py-4 rounded-full font-bold overflow-hidden transition-all hover:scale-[1.02] shadow-[0_10px_20px_rgba(44,54,43,0.3)] animate-pulse" style={{ animationDuration: '2.5s' }}>
-          <span className="relative z-10 flex items-center gap-2 tracking-widest uppercase text-[15px] font-black text-center">
-            COMPRAR
+        <a href="#oferta" className="w-full max-w-lg group relative inline-flex items-center justify-center gap-2 bg-green-500 text-white px-6 py-3.5 md:py-4 rounded-full font-bold overflow-hidden transition-all hover:scale-[1.02] shadow-[0_10px_20px_rgba(34,197,94,0.3)] animate-pulse" style={{ animationDuration: '2.5s' }}>
+          <span className="relative z-10 flex items-center gap-2 tracking-widest uppercase text-[13px] md:text-[15px] font-black text-center">
+            ACABAR COM AS MANCHAS AGORA
           </span>
-          <div className="absolute inset-0 bg-gradient-to-r from-[#2C362B] to-[#3f4d3e] opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity"></div>
         </a>
       </div>
 
