@@ -308,7 +308,7 @@ export default function ClareadorLP() {
                 <div className="w-full flex flex-col items-center">
                   <a href={link3Unidades} onClick={() => handleInitiateCheckout('Kit 3 Unidades Amazolé', 247.00)} className="w-full flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white py-5 rounded-2xl font-black tracking-widest uppercase text-[14px] transition-all hover:scale-[1.02] shadow-[0_15px_30px_rgba(34,197,94,0.5)] relative overflow-hidden group/btn">
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-full group-hover/btn:animate-[shimmer_1.5s_infinite]"></div>
-                    <span className="flex items-center gap-2 relative z-10">Agendar Minha Entrega <ChevronRight className="w-6 h-6 transition-transform group-hover/btn:translate-x-1" /></span>
+                    <span className="flex items-center gap-2 relative z-10">Garantir a Promoção <ChevronRight className="w-6 h-6 transition-transform group-hover/btn:translate-x-1" /></span>
                   </a>
                   <div className="flex items-center justify-center gap-1.5 text-[11px] text-[#EAE6DF] font-bold mt-3 text-center">
                     <ShieldCheck className="w-4 h-4 text-green-400" /> Pague apenas quando o entregador chegar na sua casa
