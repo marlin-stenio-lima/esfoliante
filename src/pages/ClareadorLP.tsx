@@ -83,9 +83,17 @@ export default function ClareadorLP() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Texto Emocional e Ingredientes */}
             <div className="space-y-8">
-              <p className="text-[#6B7068] text-lg font-light leading-relaxed">
-                Nós sabemos a dor que é ter vergonha de usar um biquíni na praia ou uma regata porque a axila está escura. Você já gastou fortunas com ácidos agressivos que descamam, ardem e deixam a pele vermelha. E o pior: no primeiro contato com o sol... <strong>a mancha volta ainda mais escura (O temido Efeito Rebote).</strong>
-              </p>
+              <div className="prose prose-lg text-[#6B7068] font-light leading-relaxed">
+                <p className="mb-4">
+                  Responda com sinceridade: <strong>Há quanto tempo você tem vergonha de olhar no espelho ou prefere apagar a luz na hora da intimidade porque a sua pele está manchada?</strong>
+                </p>
+                <p className="mb-4">
+                  Nós sabemos exatamente o que é abrir mão de usar aquele biquíni lindo na praia, ou esconder os braços numa regata porque as axilas e a virilha estão escurecidas. E sabemos do seu trauma e frustração com ácidos de farmácia que ardem, descamam e, no final... <strong>só fazem a mancha voltar o dobro do tamanho (O temido Efeito Rebote).</strong>
+                </p>
+                <p className="text-[#2C362B] font-medium text-[19px] border-l-4 border-[#D4A373] pl-5 italic">
+                  Você não precisa mais passar por essa dor e esconder o seu próprio corpo. Você merece recuperar a sua feminilidade, sua segurança e a sua liberdade de vestir o que quiser.
+                </p>
+              </div>
               
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-[#EAE6DF]">
                 <h4 className="font-serif text-2xl text-[#2C362B] mb-6">Ação Clareadora em Todas as Áreas 🌿</h4>
@@ -247,7 +255,7 @@ export default function ClareadorLP() {
               <div className="p-8 pt-0 flex-1 flex flex-col relative z-20 -mt-20">
                 <div className="text-center mb-6">
                   <h3 className="font-serif text-4xl text-[#FDFBF7] mb-1">Compre 2, Leve 3</h3>
-                  <p className="text-[#D4A373] text-[10px] font-bold uppercase tracking-[0.2em]">O Fim Definitivo das Manchas</p>
+                  <p className="text-[#D4A373] text-[10px] font-bold uppercase tracking-[0.2em]">Tratamento Definitivo</p>
                 </div>
                 <div className="text-center mb-6 relative">
                   <div className="absolute -top-4 right-0 bg-red-500 text-white text-[9px] font-black tracking-widest uppercase px-3 py-1 rounded-full shadow-lg transform rotate-6 animate-pulse">
@@ -257,11 +265,17 @@ export default function ClareadorLP() {
                   <div className="font-serif text-6xl text-[#D4A373] tracking-tight">R$ 247</div>
                   <span className="block text-[#D4A373]/70 text-[10px] uppercase tracking-widest mt-2">Você economiza R$ 46,70</span>
                 </div>
-                <ul className="space-y-4 mb-8 pt-4 flex-1 border-t border-white/10">
-                  <li className="flex items-start gap-3 text-sm text-[#EAE6DF] font-light"><CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> <span><strong>Remoção de manchas crônicas</strong></span></li>
-                  <li className="flex items-start gap-3 text-sm text-[#EAE6DF] font-light"><CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> <span>Clareia axila, virilha e melasma</span></li>
-                  <li className="flex items-start gap-3 text-sm text-[#EAE6DF] font-light"><CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> <span>Tratamento intensivo (Rende 3 Meses)</span></li>
-                  <li className="flex items-start gap-3 text-sm text-[#EAE6DF] font-light"><CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> <span><strong>Pague apenas ao entregador</strong></span></li>
+                
+                <div className="bg-[#D4A373]/10 border border-[#D4A373]/30 rounded-xl p-3.5 mb-6 text-center shadow-[inset_0_2px_10px_rgba(0,0,0,0.2)]">
+                  <p className="text-[#D4A373] text-[11px] font-bold uppercase tracking-widest mb-1">Recomendação dos Especialistas</p>
+                  <p className="text-[#EAE6DF] text-[11px] font-light leading-relaxed">O tratamento de 3 meses garante que a mancha seja apagada desde a raiz, bloqueando a melanina para que ela <strong>nunca mais volte</strong>. É por isso que 9 a cada 10 clientes compram este kit para resolver o problema de uma vez por todas.</p>
+                </div>
+
+                <ul className="space-y-4 mb-8 pt-2 flex-1 border-t border-white/10">
+                  <li className="flex items-start gap-3 text-sm text-[#EAE6DF] font-light"><CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> <span><strong>Remoção definitiva até das manchas mais crônicas</strong></span></li>
+                  <li className="flex items-start gap-3 text-sm text-[#EAE6DF] font-light"><CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> <span>Apaga o escurecimento severo (Axila e Virilha)</span></li>
+                  <li className="flex items-start gap-3 text-sm text-[#EAE6DF] font-light"><CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> <span>Bloqueia o Efeito Rebote (Rende 3 Meses)</span></li>
+                  <li className="flex items-start gap-3 text-sm text-[#EAE6DF] font-light"><CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> <span><strong>Pague apenas ao entregador na sua porta</strong></span></li>
                 </ul>
                 <a href={link3Unidades} onClick={() => handleInitiateCheckout('Kit 3 Unidades Amazolé', 247.00)} className="w-full flex flex-col items-center justify-center gap-1 bg-[#D4A373] hover:bg-[#c09162] text-[#2C362B] py-5 rounded-2xl font-bold tracking-widest uppercase text-[12px] transition-all hover:scale-[1.02] shadow-[0_10px_30px_rgba(212,163,115,0.4)] relative overflow-hidden group/btn">
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover/btn:animate-[shimmer_1.5s_infinite]"></div>
@@ -319,6 +333,18 @@ export default function ClareadorLP() {
           </div>
         </div>
       </footer>
+
+      {/* Botão flutuante do WhatsApp - Pequeno e discreto */}
+      <a 
+        href="https://wa.me/5586995485600?text=Ol%C3%A1%21%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20Amazol%C3%A9%20Clareador." 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="fixed bottom-4 right-4 z-50 bg-[#25D366] text-white p-3 rounded-full shadow-[0_10px_20px_rgba(37,211,102,0.4)] hover:scale-110 transition-transform flex items-center justify-center animate-bounce"
+        style={{ animationDuration: '3s' }}
+        aria-label="Falar no WhatsApp"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.01 2.01c-5.5 0-9.98 4.47-9.98 9.98 0 1.95.55 3.77 1.51 5.31L2.1 22.11l4.94-1.42A9.87 9.87 0 0012.01 22c5.5 0 9.99-4.47 9.99-9.98s-4.48-10.01-9.99-10.01zm5.95 14.39c-.27.76-1.56 1.45-2.18 1.54-.58.08-1.34.25-4.04-.87-3.23-1.35-5.32-4.66-5.48-4.88-.16-.21-1.31-1.74-1.31-3.32 0-1.58.82-2.38 1.12-2.69.29-.31.64-.39.85-.39.21 0 .42 0 .6.01.21.01.5-.08.78.6.29.69 1 2.45 1.09 2.63.09.19.15.42.02.66-.12.23-.19.38-.38.6-.19.23-.4.49-.57.69-.21.23-.43.48-.19.9.24.41 1.07 1.76 2.29 2.85 1.57 1.41 2.92 1.84 3.33 2.03.41.19.65.17.89-.11.24-.28 1.04-1.2 1.32-1.61.27-.42.55-.35.92-.21.38.13 2.37 1.12 2.78 1.32.41.19.68.29.78.46.1.17.1.99-.17 1.75z"/></svg>
+      </a>
     </div>
   );
 }
