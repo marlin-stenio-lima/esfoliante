@@ -96,7 +96,7 @@ export default function ClareadorLP() {
                 </p>
               </div>
               
-              <div className="bg-white p-8 rounded-3xl shadow-sm border border-[#EAE6DF]">
+              <div className="hidden md:block bg-white p-8 rounded-3xl shadow-sm border border-[#EAE6DF]">
                 <h4 className="font-serif text-2xl text-[#2C362B] mb-6">Ação Clareadora em Todas as Áreas 🌿</h4>
                 <p className="text-[#6B7068] text-sm font-light leading-relaxed mb-6">
                   Nossa fórmula inteligente age diretamente na raiz da hiperpigmentação de forma 100% natural, sem descamar e sem dor. Perfeito para:
@@ -134,28 +134,54 @@ export default function ClareadorLP() {
         </div>
       </section>
 
-      {/* Benefícios Rápidos */}
+      {/* Benefícios Rápidos (Desktop) / Ação Clareadora (Mobile) */}
       <section className="py-16 bg-white border-y border-[#EAE6DF]">
-        <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-4 gap-8">
-          <div className="flex flex-col items-center text-center group">
-            <Droplets className="w-10 h-10 text-[#D4A373] mb-4 group-hover:scale-110 transition-transform" />
-            <h3 className="font-bold text-[#2C362B] mb-2 uppercase tracking-wider text-xs">Textura Leve</h3>
-            <p className="text-[#6B7068] text-xs font-light">Fácil de espalhar, não deixa a pele oleosa e é ideal para o dia a dia.</p>
+        <div className="max-w-6xl mx-auto px-4">
+          
+          {/* Desktop: Benefícios Rápidos */}
+          <div className="hidden md:grid md:grid-cols-4 gap-8">
+            <div className="flex flex-col items-center text-center group">
+              <Droplets className="w-10 h-10 text-[#D4A373] mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="font-bold text-[#2C362B] mb-2 uppercase tracking-wider text-xs">Textura Leve</h3>
+              <p className="text-[#6B7068] text-xs font-light">Fácil de espalhar, não deixa a pele oleosa e é ideal para o dia a dia.</p>
+            </div>
+            <div className="flex flex-col items-center text-center group">
+              <Shield className="w-10 h-10 text-[#D4A373] mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="font-bold text-[#2C362B] mb-2 uppercase tracking-wider text-xs">Sem Contraindicação</h3>
+              <p className="text-[#6B7068] text-xs font-light">Seguro para peles super sensíveis, grávidas e durante a lactação.</p>
+            </div>
+            <div className="flex flex-col items-center text-center group">
+              <Leaf className="w-10 h-10 text-[#D4A373] mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="font-bold text-[#2C362B] mb-2 uppercase tracking-wider text-xs">Sem Ácidos Agressivos</h3>
+              <p className="text-[#6B7068] text-xs font-light">Não causa descamação, vermelhidão ou dor. Trata enquanto hidrata.</p>
+            </div>
+            <div className="flex flex-col items-center text-center group">
+              <Sparkles className="w-10 h-10 text-[#D4A373] mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="font-bold text-[#2C362B] mb-2 uppercase tracking-wider text-xs">Ação Ultrarrápida</h3>
+              <p className="text-[#6B7068] text-xs font-light">Clientes relatam a diferença já nos primeiros dias de uso.</p>
+            </div>
           </div>
-          <div className="flex flex-col items-center text-center group">
-            <Shield className="w-10 h-10 text-[#D4A373] mb-4 group-hover:scale-110 transition-transform" />
-            <h3 className="font-bold text-[#2C362B] mb-2 uppercase tracking-wider text-xs">Sem Contraindicação</h3>
-            <p className="text-[#6B7068] text-xs font-light">Seguro para peles super sensíveis, grávidas e durante a lactação.</p>
-          </div>
-          <div className="flex flex-col items-center text-center group">
-            <Leaf className="w-10 h-10 text-[#D4A373] mb-4 group-hover:scale-110 transition-transform" />
-            <h3 className="font-bold text-[#2C362B] mb-2 uppercase tracking-wider text-xs">Sem Ácidos Agressivos</h3>
-            <p className="text-[#6B7068] text-xs font-light">Não causa descamação, vermelhidão ou dor. Trata enquanto hidrata.</p>
-          </div>
-          <div className="flex flex-col items-center text-center group">
-            <Sparkles className="w-10 h-10 text-[#D4A373] mb-4 group-hover:scale-110 transition-transform" />
-            <h3 className="font-bold text-[#2C362B] mb-2 uppercase tracking-wider text-xs">Ação Ultrarrápida</h3>
-            <p className="text-[#6B7068] text-xs font-light">Clientes relatam a diferença já nos primeiros dias de uso.</p>
+
+          {/* Mobile: Ação Clareadora em Todas as Áreas */}
+          <div className="block md:hidden bg-[#FDFBF7] p-8 rounded-3xl shadow-sm border border-[#EAE6DF]">
+            <h4 className="font-serif text-2xl text-[#2C362B] mb-6">Ação Clareadora em Todas as Áreas 🌿</h4>
+            <p className="text-[#6B7068] text-sm font-light leading-relaxed mb-6">
+              Nossa fórmula inteligente age diretamente na raiz da hiperpigmentação de forma 100% natural, sem descamar e sem dor. Perfeito para:
+            </p>
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" />
+                <span className="text-[#4A4C48] text-[15px]"><strong className="text-[#2C362B]">Axilas e Virilhas:</strong> Apaga o escurecimento severo causado por gilete, depilação e atrito de roupas.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" />
+                <span className="text-[#4A4C48] text-[15px]"><strong className="text-[#2C362B]">Rosto (Melasma):</strong> O Extrato de Mulateiro desliga a produção descontrolada de melanina, suavizando as manchas do sol e da gravidez.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" />
+                <span className="text-[#4A4C48] text-[15px]"><strong className="text-[#2C362B]">Bumbum e Coxas:</strong> A Argila Branca + Melaleuca secam as bolinhas da foliculite e clareiam as temidas marcas de espinhas nos glúteos e costas.</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
