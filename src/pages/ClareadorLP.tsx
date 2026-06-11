@@ -366,12 +366,23 @@ export default function ClareadorLP() {
         </div>
       </footer>
 
-      {/* Botão flutuante do WhatsApp - Pequeno e discreto */}
+      {/* Botão Flutuante Fixo na Base (Sticky Bottom CTA) */}
+      <div className="fixed bottom-0 left-0 right-0 z-40 bg-white/90 backdrop-blur-md border-t border-[#EAE6DF] p-3 md:p-4 shadow-[0_-10px_30px_rgba(0,0,0,0.1)] flex justify-center items-center">
+        <a href="#oferta" className="w-full max-w-lg group relative inline-flex flex-col items-center justify-center gap-0.5 bg-red-600 text-white px-6 py-3 rounded-full font-bold overflow-hidden transition-all hover:scale-[1.02] shadow-[0_10px_20px_rgba(220,38,38,0.3)] animate-pulse" style={{ animationDuration: '2s' }}>
+          <span className="relative z-10 flex items-center gap-2 tracking-widest uppercase text-[12px] md:text-[14px] font-black text-center">
+            QUERO ME LIVRAR DAS MANCHAS AGORA <ArrowRight className="w-4 h-4" />
+          </span>
+          <span className="relative z-10 text-[9px] text-white/90 font-medium">Pague apenas quando o entregador chegar na sua casa</span>
+          <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-red-700 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        </a>
+      </div>
+
+      {/* Botão flutuante do WhatsApp - Elevado */}
       <a 
         href="https://wa.me/5586995485600?text=Ol%C3%A1%21%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20Amazol%C3%A9%20Clareador." 
         target="_blank" 
         rel="noopener noreferrer" 
-        className="fixed bottom-4 right-4 z-50 bg-[#25D366] text-white p-3 rounded-full shadow-[0_10px_20px_rgba(37,211,102,0.4)] hover:scale-110 transition-transform flex items-center justify-center animate-bounce"
+        className="fixed bottom-24 md:bottom-28 right-4 z-50 bg-[#25D366] text-white p-3 rounded-full shadow-[0_10px_20px_rgba(37,211,102,0.4)] hover:scale-110 transition-transform flex items-center justify-center animate-bounce"
         style={{ animationDuration: '3s' }}
         aria-label="Falar no WhatsApp"
       >
