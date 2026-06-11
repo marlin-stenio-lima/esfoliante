@@ -22,7 +22,7 @@ export default function ClareadorLP() {
       
       {/* Top Bar - Elegante */}
       <div className="bg-[#2C362B] text-[#FDFBF7] text-center py-2.5 px-4 text-[11px] md:text-xs font-semibold tracking-[0.2em] uppercase">
-        Últimas unidades do Lote com <span className="text-[#D4A373]">Frete Grátis e Pagamento na Entrega</span>
+        ⚠️ ALERTA: Restam apenas 15 unidades com <span className="text-[#D4A373]">Frete Grátis e Pagamento na Entrega</span>
       </div>
 
       {/* Hero Section Premium com Produto */}
@@ -40,17 +40,18 @@ export default function ClareadorLP() {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-serif font-medium leading-[1.15] mb-6 text-[#2C362B] tracking-tight">
-              A sua pele limpa e <br className="hidden md:block" />
-              <span className="italic font-light text-[#D4A373]">livre de manchas</span> para sempre.
+              O único que apaga <br className="hidden md:block" />
+              <span className="italic font-light text-[#D4A373]">manchas escuras</span> sem efeito rebote.
             </h1>
             
             <p className="text-lg md:text-xl text-[#6B7068] font-light mb-8 leading-relaxed max-w-xl">
-              Chega de esconder seu corpo! O tratamento número 1 para clarear manchas difíceis de <strong>melasma, axilas, virilhas, foliculite e até manchas no bumbum.</strong>
+              Chega de ter vergonha do seu próprio corpo! O tratamento número 1 para clareamento intensivo de <strong>Rosto (Melasma), Axilas, Virilhas, Foliculite e Bumbum.</strong> Aprovado por mais de 12.450 mulheres.
             </p>
             
             <div className="flex flex-col md:flex-row items-center gap-4 mb-4">
-              <a href="#oferta" className="w-full md:w-auto group relative inline-flex items-center justify-center gap-3 bg-[#2C362B] text-white px-10 py-5 rounded-full font-medium tracking-widest uppercase text-sm overflow-hidden transition-all hover:scale-[1.02] hover:shadow-[0_15px_40px_-10px_rgba(44,54,43,0.5)]">
-                <span className="relative z-10 flex items-center gap-2">Resgatar Minha Autoestima <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" /></span>
+              <a href="#oferta" className="w-full md:w-auto group relative inline-flex flex-col items-center justify-center gap-1 bg-[#2C362B] text-white px-10 py-4 rounded-full font-medium overflow-hidden transition-all hover:scale-[1.02] hover:shadow-[0_15px_40px_-10px_rgba(44,54,43,0.5)]">
+                <span className="relative z-10 flex items-center gap-2 tracking-widest uppercase text-[13px] font-bold">QUERO CLAREAR MINHAS MANCHAS <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" /></span>
+                <span className="relative z-10 text-[9px] text-white/70 tracking-normal normal-case font-light">E pagar com segurança apenas na entrega</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-[#2C362B] to-[#3f4d3e] opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </a>
             </div>
@@ -83,26 +84,26 @@ export default function ClareadorLP() {
             {/* Texto Emocional e Ingredientes */}
             <div className="space-y-8">
               <p className="text-[#6B7068] text-lg font-light leading-relaxed">
-                Nós sabemos o quão frustrante é gastar dinheiro com ácidos químicos agressivos. Eles deixam a pele vermelha, descamam, ardem absurdamente e, no primeiro contato com o sol... <strong>a mancha volta ainda pior.</strong>
+                Nós sabemos a dor que é ter vergonha de usar um biquíni na praia ou uma regata porque a axila está escura. Você já gastou fortunas com ácidos agressivos que descamam, ardem e deixam a pele vermelha. E o pior: no primeiro contato com o sol... <strong>a mancha volta ainda mais escura (O temido Efeito Rebote).</strong>
               </p>
               
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-[#EAE6DF]">
-                <h4 className="font-serif text-2xl text-[#2C362B] mb-6">A Revolução Natural da Amazônia 🌿</h4>
+                <h4 className="font-serif text-2xl text-[#2C362B] mb-6">Ação Clareadora em Todas as Áreas 🌿</h4>
                 <p className="text-[#6B7068] text-sm font-light leading-relaxed mb-6">
-                  Descobrimos que a pele só se cura de verdade quando não é agredida. Nossa fórmula secreta une os 4 maiores cicatrizantes e clareadores da natureza:
+                  Nossa fórmula inteligente age diretamente na raiz da hiperpigmentação de forma 100% natural, sem descamar e sem dor. Perfeito para:
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" />
-                    <span className="text-[#4A4C48] text-[15px]"><strong className="text-[#2C362B]">Mulateiro da Amazônia:</strong> Desliga a produção de melanina na raiz para a mancha nunca mais voltar.</span>
+                    <span className="text-[#4A4C48] text-[15px]"><strong className="text-[#2C362B]">Axilas e Virilhas:</strong> Apaga o escurecimento severo causado por gilete, depilação e atrito de roupas.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" />
-                    <span className="text-[#4A4C48] text-[15px]"><strong className="text-[#2C362B]">Dolomita:</strong> Renovação celular ultra-suave. Clareia a pele sem descamar e sem arder.</span>
+                    <span className="text-[#4A4C48] text-[15px]"><strong className="text-[#2C362B]">Rosto (Melasma):</strong> O Extrato de Mulateiro desliga a produção descontrolada de melanina, suavizando as manchas do sol e da gravidez.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" />
-                    <span className="text-[#4A4C48] text-[15px]"><strong className="text-[#2C362B]">Melaleuca & Argila:</strong> Seca as bolinhas da foliculite na virilha e limpa os poros profundos.</span>
+                    <span className="text-[#4A4C48] text-[15px]"><strong className="text-[#2C362B]">Bumbum e Coxas:</strong> A Argila Branca + Melaleuca secam as bolinhas da foliculite e clareiam as temidas marcas de espinhas nos glúteos e costas.</span>
                   </li>
                 </ul>
               </div>
@@ -196,10 +197,10 @@ export default function ClareadorLP() {
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-16">
             <h2 className="font-serif text-4xl md:text-5xl font-medium mb-4 text-[#2C362B] tracking-tight">O Fim das Manchas Chegou</h2>
-            <div className="inline-flex items-center gap-2 bg-[#D4A373]/10 text-[#D4A373] px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-[#D4A373]/20 mb-4">
-              <ShieldCheck className="w-4 h-4" /> 100% Seguro: Sem medo de golpes
+            <div className="inline-flex items-center gap-2 bg-red-50 text-red-600 px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-red-100 mb-4 animate-pulse">
+              ⚠️ Restam apenas 15 unidades do Lote Atual
             </div>
-            <p className="text-[#6B7068] font-light max-w-xl mx-auto text-lg">Selecione o seu tratamento abaixo. Você não precisa de cartão de crédito: <strong>pague apenas ao entregador</strong> na sua porta.</p>
+            <p className="text-[#6B7068] font-light max-w-xl mx-auto text-lg mt-2">Você não corre nenhum risco: <strong>nós só recebemos quando o entregador deixar o produto nas suas mãos.</strong></p>
           </div>
 
           <div className="flex flex-col md:flex-row gap-8 lg:gap-12 justify-center items-stretch mt-12">
@@ -288,13 +289,13 @@ export default function ClareadorLP() {
             </div>
             
             <div className="bg-white p-8 rounded-3xl border border-[#EAE6DF] shadow-sm hover:shadow-md transition-shadow">
-              <h4 className="flex items-start gap-3 font-bold text-[#2C362B] mb-3 leading-tight"><HelpCircle className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> Em quanto tempo vejo resultados?</h4>
-              <p className="text-[#6B7068] text-sm font-light leading-relaxed pl-8">A grande maioria das clientes relata clareamento visível e melhora na textura da pele já nos primeiros 15 a 22 dias de uso contínuo diário.</p>
+              <h4 className="flex items-start gap-3 font-bold text-[#2C362B] mb-3 leading-tight"><Shield className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> Tenho alguma garantia?</h4>
+              <p className="text-[#6B7068] text-sm font-light leading-relaxed pl-8"><strong>Sim! O nosso Desafio de 30 Dias.</strong> Temos tanta confiança na nossa fórmula que o risco é todo nosso: se você usar o Amazolé por 30 dias contínuos e achar que suas manchas não clarearam absolutamente nada, nós devolvemos 100% do seu dinheiro. Sem perguntas.</p>
             </div>
             
             <div className="bg-white p-8 rounded-3xl border border-[#EAE6DF] shadow-sm hover:shadow-md transition-shadow">
               <h4 className="flex items-start gap-3 font-bold text-[#2C362B] mb-3 leading-tight"><HelpCircle className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> Posso usar e tomar sol?</h4>
-              <p className="text-[#6B7068] text-sm font-light leading-relaxed pl-8">Nossa fórmula é 100% natural e sem ácidos que descamam. Pode usar de dia, mas recomendamos sempre associar ao uso de protetor solar para potencializar o clareamento.</p>
+              <p className="text-[#6B7068] text-sm font-light leading-relaxed pl-8">Sim! Nossa fórmula é 100% natural e sem ácidos fortes que descamam a pele e causam efeito rebote. Pode usar de dia tranquilamente, mas recomendamos sempre associar ao uso de protetor solar para proteger a pele e potencializar o clareamento.</p>
             </div>
             
             <div className="bg-white p-8 rounded-3xl border border-[#EAE6DF] shadow-sm hover:shadow-md transition-shadow">
