@@ -165,28 +165,38 @@ export default function AlivaxLP() {
         </div>
       </section>
 
+      {/* Alerta de Urgência (Adicional) */}
+      <section className="py-16 bg-white border-t border-[#EAE6DF]">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h3 className="font-serif text-3xl md:text-5xl font-black text-red-600 mb-6">Você tem pouco tempo.</h3>
+          <p className="text-[#0F172A] text-xl md:text-2xl leading-relaxed font-medium">
+            Seu corpo já não tem mais 20 anos. <strong className="text-red-600 underline">A cada semana que você espera, mais cartilagem é destruída para sempre.</strong> Não deixe que a teimosia tire a sua liberdade de andar. O Alivax é a sua última chance de evitar a maca cirúrgica.
+          </p>
+        </div>
+      </section>
+
       {/* Benefícios Rápidos */}
-      <section className="py-16 bg-[#FDFBF7] border-y border-[#EAE6DF]">
+      <section className="py-20 bg-[#FDFBF7] border-y border-[#EAE6DF]">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-center text-center group">
-            <Droplets className="w-10 h-10 text-[#EA580C] mb-4 group-hover:scale-110 transition-transform" />
-            <h3 className="font-bold text-[#0F172A] mb-2 uppercase tracking-wider text-xs">Ação Rápida</h3>
-            <p className="text-[#6B7068] text-xs font-light">Gotas sublinguais com absorção 10x mais rápida que cápsulas comuns.</p>
+            <Droplets className="w-12 h-12 text-[#EA580C] mb-4 group-hover:scale-110 transition-transform" />
+            <h3 className="font-black text-[#0F172A] mb-3 uppercase tracking-wider text-base md:text-lg">Ação Rápida</h3>
+            <p className="text-[#4A4C48] text-sm md:text-base font-medium">Gotas com absorção 10x mais rápida. Direto na corrente sanguínea.</p>
           </div>
           <div className="flex flex-col items-center text-center group">
-            <Shield className="w-10 h-10 text-[#EA580C] mb-4 group-hover:scale-110 transition-transform" />
-            <h3 className="font-bold text-[#0F172A] mb-2 uppercase tracking-wider text-xs">Sem Colaterais</h3>
-            <p className="text-[#6B7068] text-xs font-light">100% natural. Não agride o estômago nem o fígado.</p>
+            <Shield className="w-12 h-12 text-[#EA580C] mb-4 group-hover:scale-110 transition-transform" />
+            <h3 className="font-black text-[#0F172A] mb-3 uppercase tracking-wider text-base md:text-lg">Sem Colaterais</h3>
+            <p className="text-[#4A4C48] text-sm md:text-base font-medium">100% natural. Não ataca o seu estômago e nem o seu fígado.</p>
           </div>
           <div className="flex flex-col items-center text-center group">
-            <Leaf className="w-10 h-10 text-[#EA580C] mb-4 group-hover:scale-110 transition-transform" />
-            <h3 className="font-bold text-[#0F172A] mb-2 uppercase tracking-wider text-xs">Reconstrução</h3>
-            <p className="text-[#6B7068] text-xs font-light">Não apenas tira a dor, mas ajuda a reconstruir a cartilagem.</p>
+            <Leaf className="w-12 h-12 text-[#EA580C] mb-4 group-hover:scale-110 transition-transform" />
+            <h3 className="font-black text-[#0F172A] mb-3 uppercase tracking-wider text-base md:text-lg">Reconstrução</h3>
+            <p className="text-[#4A4C48] text-sm md:text-base font-medium">Não apenas tira a dor, mas estimula o osso a criar nova cartilagem.</p>
           </div>
           <div className="flex flex-col items-center text-center group">
-            <Sparkles className="w-10 h-10 text-[#EA580C] mb-4 group-hover:scale-110 transition-transform" />
-            <h3 className="font-bold text-[#0F172A] mb-2 uppercase tracking-wider text-xs">Zero Açúcares</h3>
-            <p className="text-[#6B7068] text-xs font-light">Seguro para diabéticos e hipertensos. Não engorda.</p>
+            <Sparkles className="w-12 h-12 text-[#EA580C] mb-4 group-hover:scale-110 transition-transform" />
+            <h3 className="font-black text-[#0F172A] mb-3 uppercase tracking-wider text-base md:text-lg">Zero Açúcares</h3>
+            <p className="text-[#4A4C48] text-sm md:text-base font-medium">Fórmula testada e segura para diabéticos e hipertensos.</p>
           </div>
         </div>
       </section>
