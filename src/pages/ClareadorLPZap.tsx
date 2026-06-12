@@ -274,8 +274,8 @@ export default function ClareadorLPZap() {
                   <li className="flex items-start gap-3 text-base text-[#4A4C48] font-light"><CheckCircle2 className="w-5 h-5 text-[#D4A373] shrink-0 mt-0.5" /> <span><strong>Pague apenas ao entregador</strong></span></li>
                 </ul>
                 <div className="w-full flex flex-col items-center">
-                  <a href={link1Unidade} target="_blank" rel="noopener noreferrer" onClick={() => handleInitiateCheckout('1 Unidade Amazolé', 97.90)} className="w-full flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white py-5 rounded-2xl font-black tracking-widest uppercase text-[15px] transition-all shadow-[0_10px_20px_rgba(34,197,94,0.3)] group">
-                    Pedir 1 Unidade no WhatsApp <ChevronRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+                  <a href={link1Unidade} target="_blank" rel="noopener noreferrer" onClick={() => handleInitiateCheckout('1 Unidade Amazolé', 97.90)} className="w-full flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white py-5 rounded-2xl font-black tracking-widest uppercase text-[15px] transition-all shadow-[0_10px_20px_rgba(34,197,94,0.3)] group text-center px-4">
+                    <span>Pedir 1 Unidade no Zap</span> <ChevronRight className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-1" />
                   </a>
                   <div className="flex items-center justify-center gap-1.5 text-xs text-[#6B7068] font-bold mt-3 text-center">
                     <ShieldCheck className="w-3.5 h-3.5 text-green-600" /> Pague apenas quando receber o produto em mãos
