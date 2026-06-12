@@ -84,9 +84,9 @@ export default function AlivaxLP() {
       <section className="py-20 bg-[#FDFBF7]">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase text-[#EA580C] mb-4">A Verdadeira Causa da Dor</h2>
-            <h3 className="font-serif text-3xl md:text-5xl font-light text-[#0F172A] max-w-3xl mx-auto leading-tight">
-              Por que você tomou tantos remédios e a dor <span className="italic text-[#EA580C]">sempre volta?</span>
+            <h2 className="text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase text-red-600 mb-4 animate-pulse">Alerta Médico Urgente</h2>
+            <h3 className="font-serif text-3xl md:text-5xl font-black text-[#0F172A] max-w-4xl mx-auto leading-tight">
+              Se você não tratar essa dor hoje, se prepare para a <span className="text-red-600 underline decoration-red-300">cadeira de rodas.</span>
             </h3>
           </div>
 
@@ -95,10 +95,13 @@ export default function AlivaxLP() {
             <div className="space-y-8">
               <div className="prose md:prose-lg text-[#6B7068] text-lg font-light leading-relaxed">
                 <p className="mb-4">
-                  Sabemos o quão frustrante é gastar fortunas com anti-inflamatórios fortes que só mascaram a dor e destroem seu estômago. O medo de perder a autonomia para subir uma escada e brincar com os netos é real. E quando o efeito do remédio passa... <strong>a pontada volta ainda pior.</strong>
+                  A verdade que a indústria farmacêutica esconde de você: cada vez que você engole um analgésico de farmácia, sua cartilagem <strong className="text-red-600">derrete e apodrece um pouco mais</strong>. Hoje é apenas uma "pontada chata" ou um inchaço no joelho. Mas em poucos meses, <strong className="text-[#0F172A] font-bold">você pode perder completamente a capacidade de andar.</strong>
                 </p>
-                <p className="text-[#0F172A] font-medium text-[22px] border-l-4 border-[#EA580C] pl-5 italic">
-                  As articulações só se curam de verdade quando a cartilagem é restaurada.
+                <p className="mb-4">
+                  O osso já está raspando no osso. Você quer mesmo passar o resto da vida numa cadeira de rodas, dependendo da sua família para tomar banho ou ir ao banheiro? A dor que você sente hoje é um <strong className="bg-red-100 text-red-700 px-1">ALARME DE EMERGÊNCIA</strong> do seu corpo gritando que a sua articulação está morrendo!
+                </p>
+                <p className="text-red-700 font-medium text-[20px] border-l-4 border-red-600 pl-5 bg-red-50 p-4 rounded-r-xl">
+                  Se você não parar esse desgaste nas próximas semanas, a única saída será uma <strong className="font-black">cirurgia invasiva de R$ 30.000,00</strong> com meses de fisioterapia dolorosa. A escolha é sua.
                 </p>
               </div>
               
