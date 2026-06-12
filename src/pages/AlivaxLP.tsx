@@ -136,8 +136,27 @@ export default function AlivaxLP() {
         </div>
       </section>
 
+      {/* Resultados Reais (Vídeos de Depoimento) */}
+      <section className="py-20 md:py-24 bg-white border-t border-[#EAE6DF]">
+        <div className="max-w-5xl mx-auto px-4 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase text-[#EA580C] mb-4">Eficácia Comprovada</h2>
+            <h3 className="font-serif text-3xl md:text-5xl font-light text-[#0F172A]">Veja os Resultados</h3>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-16 max-w-2xl mx-auto">
+            <div className="relative rounded-[2rem] overflow-hidden aspect-[9/16] bg-slate-900 shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-8 border-[#FDFBF7] group hover:border-[#EA580C] transition-colors">
+              <video src="/alivax-depoimento-1.mp4" controls className="w-full h-full object-cover"></video>
+            </div>
+            <div className="relative rounded-[2rem] overflow-hidden aspect-[9/16] bg-slate-900 shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-8 border-[#FDFBF7] group hover:border-[#EA580C] transition-colors">
+              <video src="/alivax-depoimento-2.mp4" controls className="w-full h-full object-cover"></video>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefícios Rápidos */}
-      <section className="py-16 bg-white border-y border-[#EAE6DF]">
+      <section className="py-16 bg-[#FDFBF7] border-y border-[#EAE6DF]">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-center text-center group">
             <Droplets className="w-10 h-10 text-[#EA580C] mb-4 group-hover:scale-110 transition-transform" />
