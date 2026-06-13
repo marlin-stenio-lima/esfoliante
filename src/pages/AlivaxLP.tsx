@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import { ShieldCheck, ArrowRight, CheckCircle2, Sparkles, Leaf, ChevronRight, Droplets, Shield, Lock } from 'lucide-react';
 
 export default function AlivaxLP() {
+  useEffect(() => {
+    document.title = "Alivax - Movimento Sem Dor";
+  }, []);
+
   const queryParams = typeof window !== 'undefined' ? window.location.search : '';
   const link1Unidade = `https://entrega.logzz.com.br/pay/pkvhq-1-alivax${queryParams}`;
   const link2Unidades = `https://entrega.logzz.com.br/pay/kit-compre-1-leve-2${queryParams}`;
