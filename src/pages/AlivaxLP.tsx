@@ -64,7 +64,7 @@ export default function AlivaxLP() {
           {/* Imagem do Produto */}
           <div className="flex-1 relative">
             <div className="absolute inset-0 bg-[#15803D]/10 blur-[80px] rounded-full scale-75"></div>
-            <img src="/alivax-produto.png" alt="ALIVAX em gotas" className="w-full max-w-md mx-auto relative z-10 drop-shadow-[0_20px_50px_rgba(0,0,0,0.15)] animate-pulse" style={{ animationDuration: '4s' }} />
+            <img src="/imagem-alivax-principal.jpg" alt="ALIVAX em gotas" className="w-full max-w-md mx-auto relative z-10 drop-shadow-[0_20px_50px_rgba(0,0,0,0.15)] animate-pulse" style={{ animationDuration: '4s' }} />
               
               {/* Badges Flutuantes */}
               <div className="absolute top-10 -right-4 bg-white/90 backdrop-blur-sm p-3 rounded-2xl shadow-xl border border-[#EAE6DF] z-20 flex items-center gap-3">
